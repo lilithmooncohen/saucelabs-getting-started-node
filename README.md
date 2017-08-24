@@ -11,7 +11,7 @@ Variable | Description | Required | Default
 `SAUCE_USERNAME` | sauce username | yes | none
 `SAUCE_ACCESS_KEY` | sauce access key | yes | none
 `SAUCE_ENDPOINT` | endpoint to test | no | `http://saucelabs.com/test/guinea-pig`
-`SAUCE_SERVER` | saucelab server to use | no | `ondemand.saucelabs.com`
+`SAUCE_SERVER` | sauce server to use | no | `ondemand.saucelabs.com`
 
 ### Set
 ```
