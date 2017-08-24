@@ -8,3 +8,6 @@ services:
       - SAUCE_ACCESS_KEY
       - SAUCE_SERVER
       - SAUCE_ENDPOINT
+      - SAUCE_PLATFORM
+      - SAUCE_BROWSER
+      - SAUCE_BROWSER_VERSION

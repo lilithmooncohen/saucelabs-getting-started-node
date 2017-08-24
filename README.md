@@ -12,6 +12,9 @@ Variable | Description | Required | Default
 `SAUCE_ACCESS_KEY` | sauce access key | yes | none
 `SAUCE_ENDPOINT` | endpoint to test | no | `http://saucelabs.com/test/guinea-pig`
 `SAUCE_SERVER` | sauce server to use | no | `ondemand.saucelabs.com`
+`SAUCE_PLATFORM` | sauce server to use | no | `Windows 10`
+`SAUCE_BROWSER` | sauce server to use | no | `chrome`
+`SAUCE_BROWSER_VERSION` | sauce server to use | no | `47.0`
 
 ### Set
 ```
