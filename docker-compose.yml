@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  test:
+    build: .
+    environment:
+      - SAUCE_USERNAME
+      - SAUCE_ACCESS_KEY
+      - SAUCE_SERVER
+      - SAUCE_ENDPOINT

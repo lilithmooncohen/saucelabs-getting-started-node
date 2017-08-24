@@ -1,0 +1,24 @@
+{
+  "name": "saucelabs-getting-started-node",
+  "version": "1.0.0",
+  "description": "Getting started with NodeJS on Sauce Labs",
+  "engines": {
+    "node": "8.1.3"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "2.47.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanckoch/saucelabs-getting-started-node.git"
+  },
+  "keywords": [
+    "node",
+    "saucelabs"
+  ],
+  "license": "MIT"
+}
