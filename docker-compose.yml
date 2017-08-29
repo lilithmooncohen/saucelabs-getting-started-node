@@ -7,6 +7,7 @@ services:
       - SAUCE_USERNAME
       - SAUCE_ACCESS_KEY
       - SAUCE_SERVER
+      - SAUCE_PORT
       - SAUCE_ENDPOINT
       - SAUCE_PLATFORM
       - SAUCE_BROWSER

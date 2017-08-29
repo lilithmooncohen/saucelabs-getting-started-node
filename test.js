@@ -2,6 +2,7 @@ var webdriver = require('selenium-webdriver'),
 username = process.env.SAUCE_USERNAME,
 accessKey = process.env.SAUCE_ACCESS_KEY,
 server = (process.env.SAUCE_SERVER || 'ondemand.saucelabs.com'),
+port = (process.env.SAUCE_PORT || '80'),
 endpoint = (process.env.SAUCE_ENDPOINT || 'http://saucelabs.com/test/guinea-pig'),
 browser = (process.env.SAUCE_BROWSER || 'chrome'),
 browserVersion = (process.env.SAUCE_BROWSER_VERSION || '47.0'),
@@ -17,7 +18,7 @@ withCapabilities({
 'accessKey': accessKey
 }).
 usingServer("http://" + username + ":" + accessKey +
-          "@" + server + ":80/wd/hub").
+          "@" + server + ":" + port + "/wd/hub").
 build();
 
 driver.get(endpoint);
@@ -26,6 +27,7 @@ console.log('Test info')
 console.log('---------')
 console.log ('Sauce user: ' + username)
 console.log('Sauce server: ' + server)
+console.log('Sauce port: ' + port)
 console.log ('Platform: ' + platform)
 console.log('Browser: ' + browser)
 console.log('Browser version: ' + browserVersion)
